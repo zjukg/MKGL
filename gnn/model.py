@@ -10,7 +10,7 @@ from torchdrug.core import Registry as R
 
 from .util import VirtualTensor, Range, RepeatGraph
 from .util import bincount, variadic_topks
-
+from .layer import *
 
 @R.register("PNA")
 class PNA(nn.Module, core.Configurable):

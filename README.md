@@ -56,7 +56,7 @@ python preprocess.py -c config/wn18rr_ind.yaml --version v1
 If you only has one GPU (better has 80GB memory under the default setting), please run the model with the following command:
 
 ```
-python main_torch_drug.py -c config/fb15k237.yaml
+python main.py -c config/fb15k237.yaml
 ```
 
 ### Run with Multiple GPU
@@ -64,7 +64,7 @@ python main_torch_drug.py -c config/fb15k237.yaml
 If you can access multiple GPUs, please run the model with the following command:
 
 ```
-accelerate launch --gpu_ids 'all' --num_processes 8 --mixed_precision bf16 main_torch_drug.py -c config/fb15k237.yaml
+accelerate launch --gpu_ids 'all' --num_processes 8 --mixed_precision bf16 main.py -c config/fb15k237.yaml
 ```
 
 ### Run with script
