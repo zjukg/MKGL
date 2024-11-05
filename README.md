@@ -9,12 +9,14 @@ Welcome to the repository for the model of KG Language (MKGL). This project inve
 
 
 <div align="center">
-    <img src="https://github.com/zjukg/MKGL/blob/main/imgs/arch.jpg" width="70%" height="auto" />
+    <img src="https://github.com/zjukg/MKGL/blob/master/imgs/arch.jpg" width="85%" height="auto" />
 </div>
 
 ### Overview
 Large language models (LLMs) have significantly advanced performance across a spectrum of natural language processing (NLP) tasks. Yet, their application to knowledge graphs (KGs), which describe facts in the form of triplets and allow minimal hallucinations, remains an underexplored frontier. In this project, we investigate the integration of LLMs with KGs by introducing a specialized KG Language (KGL), where a sentence precisely consists of an entity noun, a relation verb, and ends with another entity noun. 
-    <img src="https://github.com/zjukg/MKGL/blob/main/imgs/klora.jpg" width="70%" height="auto" />
+
+<div align="center">
+    <img src="https://github.com/zjukg/MKGL/blob/master/imgs/klora.jpg" width="85%" height="auto" />
 </div>
 
 
