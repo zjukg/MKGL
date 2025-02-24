@@ -33,6 +33,9 @@ please kindly install the pyg packages via wheels, which is much faster:
 ```
 pip install --find-links MKGL/pyg_wheels/ torch-scatter torch-sparse torchdrug
 ```
+
+The installed (not required) package details can be found in env.yaml.
+
 ### Preprocessing
 
 Then, we need to preprocess the datasets,
